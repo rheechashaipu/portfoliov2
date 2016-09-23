@@ -1,0 +1,28 @@
+
+.landing-page {
+	position: relative;
+	height: 100%;
+	background-color: #FA0022;
+	width: 100%;
+}
+
+.mock-json {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+}
+
+.mock-json h1 {
+	font-family: 'Oleo Script', cursive;
+	color: white;
+	font-size: 40px;
+}
+
+span {
+	padding-left: 5%;
+	white-space: nowrap;
+}
