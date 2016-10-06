@@ -16,7 +16,7 @@ html {
 
 .heading_text {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -43,12 +43,37 @@ ul .menu-items {
 	text-align: center;
 }
 
+.selfie{
+	display: inline;
+	border-radius: 50%;
+	float:left;
+}
+
 .about-me {
 	width: 40%;
 	margin: 0 auto;
-	padding-top: 10px
+	padding-top: 15px;
 }
 
+.about-me h2 {
+	font-size: 35px;
+	text-decoration: underline;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.about-me p {
+	font-size: 20px;
+}
+
+.portfolio {
+	margin: 0 auto;
+}
+
+.portfolio h1{
+	text-align: center;
+	text-decoration: underline;
+}
 
 @media only screen 
 and (min-device-width : 414px) 
@@ -69,5 +94,9 @@ and (max-device-width : 736px) {
 	.nav-menu li{
 		font-size: 20px;
 		text-align: center;
+	}
+	.selfie {
+		width:50%;
+		height: auto;
 	}
 }
