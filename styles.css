@@ -1,5 +1,5 @@
 /**Mobile First Portrait**/
-.heading{
+.heading {
 	position: relative;
 	height: 90%;
 	width: 100%;
@@ -32,7 +32,7 @@
 }
 
 .menu-items li {
-	font-size: 20px;
+	font-size: 30px;
 	display: inline;
 }
 
