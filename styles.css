@@ -65,3 +65,11 @@
 
 /**Portfolio**/
 
+.portfolio h2 {
+	text-align: center;
+}
+
+.gallery * {
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
