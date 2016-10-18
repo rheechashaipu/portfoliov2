@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
+	<script src="https://use.fontawesome.com/13ff5fb67d.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
 </head>
 <body>
@@ -16,14 +17,14 @@
 			</h2>
 		</div>
 	</div>
-	<nav class="nav-menu">
+	<nav class="nav-menu" data-spy="affix" data-offset-top>
 		<ul class="menu-items">
-			<li>About me // </li>
-			<li>Portfolio // </li>
-			<li>Contact Me</li>
+			<a href="#about-me"><li>About me // </li></a>
+			<a href="#portfolio"><li>Portfolio // </li></a>
+			<a href="#contact"><li>Contact Me</li></a>
 		</ul>
 	</nav>
-	<div class="about-me">
+	<div class="about-me" id="about-me">
 		<h2 class="about-me-header">Who I am</h2>
 		<img class="selfie" src="http://placehold.it/200x200">
 
@@ -38,7 +39,7 @@
 		</div>
 	</div>
 
-	<div class="portfolio">
+	<div class="portfolio" id="portfolio">
 	<h2>Some Recent Projects</h2>
 	<div class="gallery" id="gallery">
 				<div class = "row portfolio">
@@ -77,8 +78,12 @@
 		</div>
 		</div>
 
-		<div class="contact">
-		
+		<div class="contact" id="contact">
+			<h3>Contact me</h3>
+			<ul class="icons">
+				<li><a href="https://github.com/rheechashaipu"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+				<li><a href="mailto:rheechashaipu@gmail.com"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a></li>
+			</ul>
 		</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

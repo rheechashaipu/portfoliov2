@@ -16,7 +16,7 @@
 .mock_json {
 	display: block;
 	margin-left: 20px;
-	font-size: 40px;
+	font-size: 35px;
 	line-height: 125%;
 }
 
@@ -24,15 +24,26 @@
 	padding-top: 20px;
 	text-align: center;
 	height: 10%;
+}
 
+.affix {
+	top: 0;
+	width: 100%;
+	background-color: rgba(50,50,50,0.4);
+	z-index: 3;
 }
 
 .nav-menu ul{
 	padding: 0;
 }
 
+.nav-menu a{
+	text-decoration: none;
+	color: #000;
+}
+
 .menu-items li {
-	font-size: 30px;
+	font-size: 20px;
 	display: inline;
 }
 
@@ -72,4 +83,26 @@
 .gallery * {
 	padding-bottom: 15px;
 	margin: 0 auto;
+}
+
+/**Icons**/
+
+.contact h3{
+	text-align: center;
+
+}
+
+.icons {
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+}
+
+.icons li{
+	padding-top: 10px;
+}
+
+.icons li a {
+	text-decoration: none;
+	color: #000;
 }
