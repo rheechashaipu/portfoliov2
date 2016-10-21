@@ -27,14 +27,6 @@
 	height: 10%;
 }
 
-.affix {
-	top: 0;
-	width: 100%;
-	background-color: rgba(50,50,50,0.4);
-	z-index: 100;
-	margin: 0 auto;
-}
-
 .nav-menu ul{
 	padding: 0;
 }
@@ -71,6 +63,8 @@
 
 .about-me p {
 	font-size: 15px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .education-header {
@@ -87,12 +81,14 @@
 
 .skills-list p{
 	text-align: left;
+	padding-bottom: 10px;
 }
 
 .skills-list {
+	padding-left: 0px;
 	list-style-type: none;
 	text-align: center;
-	padding-left: 0px;	
+	line-height: 1.5;
 }
 
 /**Portfolio**/
@@ -110,7 +106,6 @@
 	display: inline-block;
 	width: 100%;
 	height: 50%;
-	outline: 1px solid black;
 }
 
 .proj-image img{
@@ -128,7 +123,6 @@
 	display: inline-block;
 	width: 100%;
 	height: 50%;
-	outline: 1px solid black;
 }
 
 .description-text{
@@ -136,12 +130,14 @@
 	max-width: 80%;
 	text-align: left;
 	line-height: 1.5em;
+	font-size: 0.9em;
 }
 
 
 .description-text h4{
 	padding-bottom: 8px;
 }
+
 
 
 /**Icons**/
@@ -165,7 +161,18 @@
 	color: #000;
 }
 
-@media (min-width: 668px) {
+@media screen and (min-width: 568px){
+	.description-text{
+		padding-top: 10px;
+		font-size: 0.7em;
+	}
+	.selfie{
+		width: 35%;
+		border-radius: 10%;
+	}
+}
+
+@media screen and (min-width: 737px) {
 
 	.wrapper{
 		width: 60%;
@@ -223,9 +230,14 @@
 	}
 
 	.proj-description{
+		padding-top: 10%;
 		width: 50%;
 		max-height: 450px;
 		display: inline-block;
+	}
+
+	.description-text {
+		font-size: 1em;
 	}
 
 }
