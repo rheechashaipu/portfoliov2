@@ -1,4 +1,5 @@
 /**Mobile First Portrait**/
+
 .heading {
 	position: relative;
 	height: 90%;
@@ -131,16 +132,16 @@
 }
 
 .description-text{
-	padding-top: 10px;
+	padding-top: 5%;
 	max-width: 80%;
 	text-align: left;
 	line-height: 1.5em;
 }
 
-.description-text h4{
-	padding-bottom: 10px;
-}
 
+.description-text h4{
+	padding-bottom: 8px;
+}
 
 
 /**Icons**/
@@ -165,6 +166,7 @@
 }
 
 @media (min-width: 668px) {
+
 	.wrapper{
 		width: 60%;
 		margin: 0 auto;
@@ -189,10 +191,12 @@
 		text-align: left;
 	}
 
-	.skills-list p{
+	.skills-list{
+		width: 60%;
+		margin: 0 auto;
 		text-align: center;
 	}
-	
+
 	.left {
 		float: left;
 	}
