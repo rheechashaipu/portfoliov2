@@ -16,6 +16,8 @@ html, body{
 	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	padding: 10%;
+	outline: 1px solid black;
 }
 
 .mock_json {
@@ -76,8 +78,18 @@ html, body{
 	text-align: center;
 }
 
+.edu-institution{
+	font-weight: bold;
+}
+
 .education-list {
 	list-style-type: none;
+}
+
+.inner-list {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2%;
 }
 
 .skills-header{
@@ -100,6 +112,7 @@ html, body{
 
 .portfolio h2 {
 	text-align: center;
+	padding-bottom: 15px;
 }
 
 .gallery * {
@@ -159,6 +172,9 @@ html, body{
 
 .icons li{
 	padding-top: 10px;
+	display: inline;
+	padding-right: 5%;
+	padding-left: 5%;
 }
 
 .icons li a {
@@ -213,6 +229,11 @@ html, body{
 		margin: 0 auto;
 	}
 
+	.about-me {
+		width: 80%;
+		margin: 0 auto;
+	}
+
 	.education {
 		margin: 0 auto;
 		text-align: center;
@@ -243,6 +264,7 @@ html, body{
 		width: 50%;
 		max-height: 450px;
 		display: inline-block;
+		padding-top: 5px;
 	}
 	
 
@@ -256,6 +278,12 @@ html, body{
 }
 
 @media screen and (min-width: 900px) {
+	.description-text{
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 1440px){
 	.description-text{
 		font-size: 1.1em;
 	}
