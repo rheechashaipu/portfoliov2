@@ -17,7 +17,8 @@ html, body{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	padding: 10%;
-	outline: 1px solid black;
+	border: 1px solid black;
+	border-radius: 5%;
 }
 
 .mock_json {
@@ -32,6 +33,20 @@ html, body{
 	text-align: center;
 	height: 10%;
 }
+
+.nav-menu-fixed{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0px;
+	padding-top: 0px;
+	z-index: 100;	
+}
+
+.menu-items-fixed ul{
+	background-color:rgba(138, 54, 54, 1.0);
+}
+
 
 .nav-menu ul{
 	padding: 0;
@@ -215,6 +230,12 @@ html, body{
 		margin: 0 auto;
 		border-left: 2px white solid;
 		border-right: 2px white solid;
+	}
+
+	.menu-items-fixed ul{
+		background-color:rgba(138, 54, 54, 1.0);
+		width: 60%;
+		margin: 0 auto;
 	}
 
 	.description-text {
