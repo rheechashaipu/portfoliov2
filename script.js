@@ -1,7 +1,6 @@
 $(document).ready(function() {
   var hideAddressbar = function(){
     document.body.style.minHeight = '1000px';
-    window.scrollTo(0, 0);
     document.body.style.minHeight = window.innerHeight + 'px';
 }
 
