@@ -197,11 +197,34 @@ html, body{
 	color: #000;
 }
 
-@media screen and (min-width: 568px) and (max-width: 736px){
+@media screen and (min-width: 320px) and (max-width: 736px){
+
+	.heading_text {
+		padding: 10px 10px 10px 10px;
+	}
+
+	.nav-menu{
+		padding-top: 0;
+	}
+
+	.about-me {
+		padding-top: 5%;
+	}
+
+	.mock_json{
+		line-height: 120%
+	}
+	.proj-description{
+		height: 50%;
+		margin-bottom: 5px;
+	}
 	.description-text{
 		padding-top: 10px;
-		font-size: 0.7em;
+		font-size: 0.85em;
+		height: 50%;
+		border: 1px;
 	}
+
 	.selfie{
 		width: 35%;
 		border-radius: 10%;
@@ -236,6 +259,11 @@ html, body{
 		background-color:rgba(138, 54, 54, 1.0);
 		width: 60%;
 		margin: 0 auto;
+	}
+
+	hr{
+		color: black;
+		width: 5px;
 	}
 
 	.description-text {
@@ -286,6 +314,7 @@ html, body{
 		max-height: 450px;
 		display: inline-block;
 		padding-top: 5px;
+		outline: 1px solid white;
 	}
 	
 
@@ -294,11 +323,15 @@ html, body{
 		width: 50%;
 		max-height: 450px;
 		display: inline-block;
+		outline: 1px solid white;
 	}
 
 }
 
 @media screen and (min-width: 900px) {
+	.proj-description{
+		padding-top: 0px;
+	}
 	.description-text{
 		font-size: 1em;
 	}
