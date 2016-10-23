@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  $("html, body, #wrapper1").css({
+    height: $(window).height()
+});
+
    var windowHeight = $(window).height();
    var menuPos = $('.nav-menu').position().top;
     
